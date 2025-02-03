@@ -88,6 +88,10 @@ To use ChatGPT by default and GPT-4 occasionally, you can define a function that
 
 Bind this function to a hotkey, such as =C-x C-r=. To summon GPT-4, use =C-u C-x C-r=.
 
+*** Use of non-OpenAI Models
+
+You can use any OpenAI compatible services by customizing the `ancilla-adaptor-chat-api-endpoint` variable, which defaults to "https://api.openai.com/v1/chat/completions".
+
 ** Acknowledgments
 
 - The "select-instruct" way of interaction is inspired by https://github.com/debanjum/codex-completion.
